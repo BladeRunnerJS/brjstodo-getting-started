@@ -10,10 +10,9 @@
 
 	</head>
 	<body>
-		<section id="todoapp"></section>
-
 		<!-- dev-minifier can be set to "combined" for all JS content to be bundled with a single request -->
 		<@js.bundle dev-minifier="none" prod-minifier="combined"@/>
+		<section id="todoapp"></section>
 		<script>
 			( function() {
 				var App = require( 'brjstodo/App' );
